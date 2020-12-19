@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.Contact{
+    background-color: #F8F9FA;
+}
+
+.baseContainerContact{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.ContactContentHeading{
+    font-family: 'Rakkas', cursive;
+    color:black;
+    font-size: 3em;
+}
+
+.ContactContentParagraph{
+    color:#ADAEAF;
+    font-family: 'Numans', sans-serif;
+    
+  }
+  .ContactContentStory {
+    color:#ADAEAF;
+    font-family: 'Numans', sans-serif;
+   font-size: 1.5em;
+  }
+  .ContactContentText{
+      max-width: 60ch;
+  }
+  .ContactContent{
+      margin-bottom: 60px;
+  }
+
+
+.form__input {
+    font-family: 'Numans', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 0.7rem 1rem;
+    border-radius: 0px;
+    background-color: #E6E6E6;
+    border: none;
+    width: 100%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    outline: none;
+  }
+  #textArea{
+      min-height:300px;
+  }
+
+  .send-message{
+    
+    background-color: #FDA403;
+    border: 2px solid #FDA403;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+    cursor: pointer;
+    letter-spacing: 2px;    
+}
+.send-message:hover{
+border:2px solid #ADAEAF;
+background-color: #ADAEAF;
+color: black;
+}
+
+.rightContentImage{
+    width:100%;
+    object-fit: contain;
+}

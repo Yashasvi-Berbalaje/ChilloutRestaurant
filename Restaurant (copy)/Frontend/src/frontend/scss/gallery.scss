@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+.gallery{
+    background-color: #ffffff;
+}
+.baseContainerGallery{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+
+.GalleryContent{
+    margin-bottom: 60px;
+}
+
+.galleryContentHeading{
+    font-family: 'Rakkas', cursive;
+    color:black;
+    font-size: 3em;
+}
+
+.galleryContentParagraph{
+    color:#ADAEAF;
+    font-family: 'Numans', sans-serif;
+    
+  }
+  .galleryContentText{
+      max-width: 60ch;
+  }
+
+  .gallery-img-container{
+      height: 300px;
+  }
+  .gallery-img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+
+.footer{
+    background-color: #222222;
+}
+.baseContainerfooter{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+h5{
+    font-family: 'Rakkas', cursive;
+    color: #898989;
+}
+
+.footer-lists{
+    color: #616161 !important;
+    font-family: 'Numans', sans-serif;
+}
+.footer-lists:hover{
+    color: #FDA403 !important;
+}
+.footer-about-us{
+    color: #616161 !important;
+    font-family: 'Numans', sans-serif;
+}
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #2C2C2C;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #2C2C2C;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    color: #6C6C6C;
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    text-decoration: none;
+    background: #fff;
+    border-color: #2C2C2C; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #2C2C2C;
+}
+
+.twitterBtn:before{
+    color: #6C6C6C;
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+    text-decoration: none;
+    background: #fff;
+      border-color: #2C2C2C;
+}
+
+/* Instagram button class*/
+.InstagramBtn{
+    
+    background:#2C2C2C;
+}
+
+.InstagramBtn:before{
+    color: #6C6C6C;
+      font-family: "FontAwesome";
+      content: "\f16d"; /* add Instagram icon */
+}
+
+.InstagramBtn:hover{
+    text-decoration: none;
+      background: #fff;
+      border-color: #2C2C2C;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .footer-links{
+        justify-content: left !important;
+    }
+  }
+
+  

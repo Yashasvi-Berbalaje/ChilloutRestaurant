@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+.home{
+    height: 700px;
+    background:linear-gradient(rgba(255,255,255,.2), rgba(255,255,255,.2)), url('../../assets/homeBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logoContent
+{
+    position: static;
+
+}.heading-logo{
+  z-index: 1;
+  color: #FFFFFF;
+  font-size: 100%;
+  margin-bottom: 0px;
+  padding-top: 4px;
+  font-family: 'Gugi', cursive;
+}
+
+.logoContent{
+    padding:1.5em 0em;
+}
+.NavBar{
+    padding:1.5em 0em;
+}
+.web-list-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+  }
+  
+  .web-list-li {
+    float: left;
+  }
+  
+  .web-list-li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: .9em;
+    padding:0px 2.5vw 0px 0px;
+    text-decoration: none;
+    font-family: 'Numans', sans-serif;
+  }  
+  .web-list-li > a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color:#ADAEAF;
+  }
+  .mob-list-li > a {
+    display: block;
+    color: #BDBDBD;
+    font-size: .9em;
+    padding:0px 2.5vw 0px 0px;
+    text-decoration: none;
+    font-family: 'Numans', sans-serif;
+  }
+  .mob-list-li > a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color:#808080;
+  }
+
+  .HomeContentContainer{
+      position: relative;
+      top:9%;
+      text-align: center;
+  }
+  .Reservation {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .Reservation:hover{
+    background-color: white;
+    color: black;
+  }
+  .ContentHeading{
+      margin: 20px 20px ;
+      font-family: 'Rakkas', cursive;
+      color:#FFFFFF;
+      font-size: 3em;
+  }
+  .ContentTagline{
+    margin: 20px 5px ;
+    font-family: 'Numans', sans-serif;
+    color:#FFFFFF;
+    font-size: 1em; 
+    letter-spacing: 3px;
+    font-weight: bold
+  }
+ .mobile-header{
+   background: #030408;
+   margin-bottom: -20px;
+ }
+ .modal-dialog{
+   padding-left: 30px;
+   padding-right: 30px;
+   max-width: 800px;
+ }
+ .modal-header{
+   max-height: 400px
+ }
+ .modalHeading{
+  font-family: 'Rakkas', cursive;
+  color:black;
+  font-size: 3em;
+}
+
+.form__input {
+  font-family: 'Numans', sans-serif;
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 0.7rem 1rem;
+  border-radius: 0px;
+  background-color: #E6E6E6;
+  border: none;
+  width: 100%;
+  display: block;
+  border-bottom: 0.3rem solid transparent;
+  outline: none;
+}
+.react-datepicker-wrapper{
+  width: 100%;
+}
+.modalBodylabel{
+  font-family: 'Numans', sans-serif;
+}
+
+  @media only screen and (max-width: 460px) {
+    .modalHeading{
+      font-size: 1.5em;
+    }
+    .HomeContentContainer{
+        top:15%;
+    }
+    .ContentHeading{
+        font-size: 2em;
+    }
+  }
+  @media only screen and (max-width: 954px) {
+    .mobile-header{
+      display: none !important;
+    }
+  }
+  @media only screen and (max-width: 954px) {
+     .mobile-header{
+       display: flex !important;
+     }
+     .headerBar{
+       display: none;
+     }
+  }
